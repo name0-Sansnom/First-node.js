@@ -12,7 +12,7 @@ dotenv.config();
 const port = process.env.PORT || 8080 || 8000;
 const db = process.env.DB_LOCAL;
 
-// mongoose.connect('mongodb+srv://admin:1234@cluster0.3zjxv24.mongodb.net/?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+sr//admin:1234@cluster0.3zjxv24.mongodb.net/?retryWrites=true&w=majority', {
 mongoose
   .connect(db, {
     useNewUrlparser: true,
